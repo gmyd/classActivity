@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeQuest - Exercises</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">CodeQuest</div>
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="exercises.html" class="active">Exercises</a></li>
+                <li><a href="game.html">Game</a></li>
+                <li><a href="leaderboard.html">Leaderboard</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="exercise-container">
+        <h1>JavaScript & CSS Fundamentals</h1>
+        <p>Practice essential programming concepts before starting the game!</p>
+
+        <div class="exercise">
+            <h2>JavaScript Basics</h2>
+            <p>Try to complete the code snippet:</p>
+            <pre>let x = 10;
+if (x > 5) {
+    console.log("____!");
+}</pre>
+            <textarea placeholder="Your Answer Here..."></textarea>
+            <button onclick="checkExercise()">Submit</button>
+            <div id="feedback"></div>
+        </div>
+
+        <button class="continue" onclick="window.location.href='game.html'">Continue to Game</button>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 CodeQuest | Learn and Have Fun!</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
