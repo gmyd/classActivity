@@ -1,0 +1,17 @@
+1. Meeting the specifications:
+- Implemented jQuery UI widgets: Accordion (on About page), Tabs (on Exercises page), Datepicker (on Contact page).
+- Integrated jQuery plugin: bxSlider on index.html for displaying a slider.
+- AJAX Requests:
+    • Local JSON file: data.json fetched and shown in index.html.
+    • External API: "https://api.quotable.io/random" (displays a random quote using AJAX in game.html).
+
+2. Meeting stakeholder needs:
+The website is designed for learners to practice JavaScript/CSS through interactive game-based learning. The improvements provide a more dynamic experience, allowing users to access updated content and enhancing usability through widgets and visual aids.
+
+3. Advertising and functionality:
+Clients can navigate between different sections like Game, Leaderboard, Exercises, etc.
+Implemented features include:
+- Interactive tutorials and exercises
+- Score tracking
+- Real-time AJAX data updates
+- jQuery UI widgets for usability enhancement

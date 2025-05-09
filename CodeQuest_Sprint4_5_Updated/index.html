@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeQuest - Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">CodeQuest</div>
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="exercises.html">Exercises</a></li>
+                <li><a href="game.html">Game</a></li>
+                <li><a href="leaderboard.html">Leaderboard</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <img src="images/game_and_coding.png" alt="Game and Coding" class="hero-image" style="width: 80%; height: auto;">
+        <h1>Welcome to <span>CodeQuest</span></h1>
+        <p>Level up your JavaScript and CSS skills in a fun and interactive way!</p>
+        <button onclick="window.location.href='game.html'">Start Game</button>
+    </div>
+
+    <!-- Instructions Section -->
+    <div class="instructions-container">
+        <h2>Instructions</h2>
+        <p>Follow these steps to start playing:</p>
+        <ol>
+            <li>Read the question carefully.</li>
+            <li>Type your answer in the input field.</li>
+            <li>Click "Submit" to check if your answer is correct.</li>
+            <li>Keep playing to improve your JavaScript and CSS skills!</li>
+        </ol>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 CodeQuest | Learn and Have Fun!</p>
+    </footer>
+
+    <script>
+        $(document).ready(function(){
+            $("#accordion").accordion();
+        });
+    </script>
+<section><h2>AJAX: Local Data</h2><div id="localDataOutput">Loading local data...</div></section>
+</body>
+</html>
